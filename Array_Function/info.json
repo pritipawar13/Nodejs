@@ -1,0 +1,10 @@
+{
+    "firstname" : "Priti",
+    "lastname": "Pawar",
+    "address": {
+        "street": "Shirsatwadi",
+        "city":"Indapur",
+        "pin_code": 413114
+    }
+
+}
