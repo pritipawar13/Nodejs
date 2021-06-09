@@ -1,7 +1,7 @@
 // fs module is used for handing the properties which are related to the file System.
 
 var fs=require('fs');
-/*
+
 // read the content of the file .
 var read_file=fs.readFile('info.txt','utf8',function(err,data){
     if(err){
@@ -10,9 +10,9 @@ var read_file=fs.readFile('info.txt','utf8',function(err,data){
     console.log(data);
 });
 
-/* write the given contant into the file . If we wont to write some data into the file .write function firstly remove 
+/*write the given contant into the file . If we wont to write some data into the file .write function firstly remove 
 the existing data and then write new content into that file.
-
+*/
 fs.writeFile('info.txt',"Best Company in the Pune",function(err,data){
     if(err){
         throw err;
@@ -69,7 +69,7 @@ fs.open('/home/priti/Nodejs/Files/info.txt','r',function(err,data){
     else{
         console.log(data);
     }
-})*/
+})
 
 // Read the content in the directory means the it gives the file names which are present in the given directory.
 
@@ -78,6 +78,6 @@ fs.readdir('/home/priti/Nodejs/Files',function(err,data){
 }) 
 
 // Delete the specfic file in the given location.
-/*fs.unlink('/home/priti/Nodejs/Files/a.txt',function(){
+fs.unlink('/home/priti/Nodejs/Files/a.txt',function(){
     console.log("File successfully deleted");
-})*/
+})
